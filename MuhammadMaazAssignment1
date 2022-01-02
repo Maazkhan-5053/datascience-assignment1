@@ -1,0 +1,67 @@
+Question 1
+print("Twinkle, twinkle, little star,")
+print("\t How i wounder what you are!")
+print("\t\t\tUp above the world so high")
+print("\t\t\tLike dimond in the sky.")
+print("Twinkle, twinkle, little star,")
+print("\t How i wounder what you are!")
+
+Output:
+Twinkle, twinkle, little star,
+	 How i wounder what you are!
+			Up above the world so high
+			Like dimond in the sky.
+Twinkle, twinkle, little star,
+	 How i wounder what you are!
+
+
+              Question 2
+import sys
+print (sys.version)
+
+OUTPUT:
+3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)]
+
+              Question 3
+import datetime
+now = datetime.datetime.now()
+print ("Current date and time : ",now)
+
+OUTPUT:
+
+Current date and time :  2022-01-01 20:25:41.048822
+
+
+              Question 4
+pi=3.14
+radious=float(input("ENTER THE RADIOUS OF CIRCLE:\t"))
+Area=pi*radious*radious
+print("Area of circle is: ",Area)
+
+OUTPUT:
+
+ENTER THE RADIOUS OF CIRCLE:	7.6
+Area of circle is:  181.3664
+
+              Question 5
+fname=input("ENTER FIRST NAME:\t")
+lname=input("ENTER LAST NAME:\t")
+print(lname," ",fname)
+
+OUTPUT:
+  ENTER FIRST NAME:	Muhammad
+
+ENTER LAST NAME:	Maaz
+Maaz   Muhammad
+              Question 6
+a=int(input("ENTER THE 1ST NUMBER:\t"))
+b=int(input("ENTER THE 2ND NUMBER:\t"))
+c = a + b
+print(c);
+
+OUTPUT:
+
+ENTER THE 1ST NUMBER:	5
+
+ENTER THE 2ND NUMBER:	9
+14
